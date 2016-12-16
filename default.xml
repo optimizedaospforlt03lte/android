@@ -6,6 +6,10 @@
   <default revision="refs/tags/android-7.1.1_r6"
            remote="aosp"
            sync-j="4" />
+           
+  <remote  name="github"
+           fetch="https://github.com/" 
+           revision="refs/heads/7.1.1"/>
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -543,5 +547,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  
+  
+  <!-- Optimized AOSP -->
+  <project path="android" name="optimizedaospforlt03lte/android" remote="github" />
 
 </manifest>
