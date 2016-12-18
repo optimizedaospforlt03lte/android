@@ -551,7 +551,7 @@
   <!-- Optimized AOSP -->
   <project path=".repo/manifests" name="optimizedaospforlt03lte/android" remote="github" />
   <project path="android" name="optimizedaospforlt03lte/android" remote="github" />
-  <project path="build" name="optimizedaospforlt03lte/android_build" remote="github" />
+  <project path="build" name="optimizedaospforlt03lte/android_build" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="optimizedaospforlt03lte/android_frameworks_base" remote="github" />
