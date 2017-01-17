@@ -517,10 +517,10 @@
   <project path="packages/apps/PhoneCommon" name="optimizedaospforlt03lte/android_packages_apps_PhoneCommon" remote="github" />
   <project path="packages/apps/ContactsCommon" name="optimizedaospforlt03lte/android_packages_apps_ContactsCommon" remote="github" />
   <project path="packages/apps/Contacts" name="optimizedaospforlt03lte/android_packages_apps_Contacts" remote="github" />
-  <project path="packages/apps/ExactCalculator" name="optimizedaospforlt03lte/androidpackages_apps_ExactCalculator" remote="github" />
-  <project path="packages/apps/Messaging" name="optimizedaospforlt03lte/androidpackages_apps_Messaging" remote="github" />
-  <project path="packages/apps/Email" name="optimizedaospforlt03lte/androidpackages_apps_Email" remote="github" />
-  <project path="packages/apps/Calendar" name="optimizedaospforlt03lte/androidpackages_apps_Calendar" remote="github" />
+  <project path="packages/apps/ExactCalculator" name="optimizedaospforlt03lte/android_packages_apps_ExactCalculator" remote="github" />
+  <project path="packages/apps/Messaging" name="optimizedaospforlt03lte/android_packages_apps_Messaging" remote="github" />
+  <project path="packages/apps/Email" name="optimizedaospforlt03lte/android_packages_apps_Email" remote="github" />
+  <project path="packages/apps/Calendar" name="optimizedaospforlt03lte/android_packages_apps_Calendar" remote="github" />
   
   <project path="packages/providers/DownloadProvider" name="optimizedaospforlt03lte/android_packages_providers_DownloadProvider" remote="github" />
   <project path="packages/providers/MediaProvider" name="optimizedaospforlt03lte/android_packages_providers_MediaProvider" remote="github" />
